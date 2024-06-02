@@ -1,0 +1,99 @@
+
+h1 {
+  position:relative;
+  font-size: 30px;
+  background: -webkit-linear-gradient(rgb(4, 161, 196), #014757);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 10px;
+}
+p{
+  font-size: 20px;
+  color:aliceblue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+#container {
+    display: grid;
+    height: 100px;
+    grid-template-rows: 30px 1fr;
+    grid-template-columns: minmax(100px,200px) 1fr;
+  }
+  
+  .bot_appear, .bot_appear2 {
+    margin: auto;
+    text-align: center;
+    border: 1px solid blue;
+    border-color: antiquewhite;
+    border-radius: 10px;
+    
+  }
+  .bot_appear:hover, .bot_appear2:hover {
+    background-color: rgb(3, 53, 65);
+  }
+  #sidebar {
+    font-size: large;
+    background-color: rgba(6, 68, 87, 0.815);
+    height: 90vh;
+    padding:10px;
+    border-radius: 20px;
+
+  }
+  
+  #chat_container {
+    background: -webkit-linear-gradient( #030029,#014757 );
+    border: 2.5px solid white;
+    height: 84vh;
+    border-radius: 8px;
+    position:relative; 
+  }
+    .chatmessages{      
+      height: 90vh;
+      background-color: transparent;
+      display: flex;
+    }
+  .input_container{
+    display:block;
+    background-color:transparent; 
+    position:absolute;
+    height:62px;
+    width:575px;
+  
+    bottom:0;
+    right:0;
+    padding-right:10px;
+    }
+
+    .input_messages {
+      flex: 1;
+      display: flex;
+      height:6vh;
+      line-height: 16px;
+      outline: none;
+      }
+
+      input{
+        width:88.5%;
+        height:100%;
+        border-radius: 20px;
+        display:flex;
+        align-items:center;
+        white-space:nowrap;
+      
+      }
+      #clickMe{
+        border-radius: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height:100%;
+        width:70px;
+        background-color: teal;
+        
+      }
+
+.font {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:azure;
+
+}
+
+ 
